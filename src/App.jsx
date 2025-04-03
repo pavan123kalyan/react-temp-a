@@ -12,6 +12,16 @@ import App6 from "./components/App6";
 import App7 from "./components/App7";
 import App8 from "./components/App8";
 import App9 from "./components/App9";
+import App10 from "./components/App10";
+import App11 from "./components/App11";
+import App12 from "./components/App12";
+import Main from "./components/Main";
+import Child1 from "./components/Child1";
+import Child2 from "./components/Child2";
+import App13 from "./components/App13";
+import App14 from "./components/App14";
+import Parent from "./components/Parent";
+import App15 from "./components/App15";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +35,16 @@ function App() {
       <Link to="app7">App7</Link>
       <Link to="app8">App8</Link>
       <Link to="app9">App9</Link>
+      <Link to="app10">App10</Link>
+      <Link to="app11">App11</Link>
+      <Link to="app12">App12</Link>
+      <Link to="Main">Main</Link>
+      <Link to="Child1">Child1</Link>
+      <Link to="Child2">Child2</Link>
+      <Link to="App13">App13</Link>
+      <Link to="App14">App14</Link>
+      <Link to="Parent">Parent</Link>
+      <Link to="App15">App15</Link>
     </div>
     <hr></hr>
     <div>
@@ -39,6 +59,16 @@ function App() {
         <Route path="app7" element={<App7/>}></Route>
         <Route path="app8" element={<App8/>}></Route>
         <Route path="app9" element={<App9/>}></Route>
+        <Route path="app10" element={<App10/>}></Route>
+        <Route path="app11" element={<App11/>}></Route>
+        <Route path="app12" element={<App12/>}></Route>
+        <Route path="Main" element={<Main/>}></Route>
+        <Route path="Child1" element={<Child1/>}></Route>
+        <Route path="Child2" element={<Child2/>}></Route>
+        <Route path="App13" element={<App13/>}></Route>
+        <Route path="App14" element={<App14/>}></Route>
+        <Route path="Parent" element={<Parent/>}></Route>
+        <Route path="App15" element={<App15/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>
