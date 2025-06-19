@@ -6,7 +6,7 @@ export default function App15() {
         <div>
             <h3>This is App15</h3>
             <div>
-                <FaHome size={15} />
+                <FaHome size={25} />
                 <label>Home</label>
             </div>
             <div>

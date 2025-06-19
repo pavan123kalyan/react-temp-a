@@ -1,11 +1,10 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-// import './index.css'
-import App from '../App.jsx'
-// import App19 from './components/App19.jsx'
+import React from "react";
 
-createRoot(document.getElementById('root')).render(
-  // <StrictMode>
-    <App />
-  // </StrictMode>,
-)
+export default function Main({ c }) {
+  return (
+    <div>
+      <h2>This is Main Component</h2>
+      <p>Value from App12: {c}</p>
+    </div>
+  );
+}

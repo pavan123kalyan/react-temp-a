@@ -32,8 +32,8 @@ function App() {
   return (
     <BrowserRouter>
     <div>
-      <Link to="app1">App1</Link>
-      <Link to="app2">App2</Link>
+      <Link to="App1">App1</Link>
+      <Link to="App2">App2</Link>
       <Link to="app3">App3</Link>
       <Link to="app4">App4</Link>
       <Link to="app5">App5</Link>
@@ -62,7 +62,7 @@ function App() {
     <div>
       <Routes>
         <Route index element={<App1/>}></Route>
-        <Route path="app1" element={<App1/>}></Route>
+        <Route path="App1" element={<App1/>}></Route>
         <Route path="app2" element={<App2/>}></Route>
         <Route path="app3" element={<App3/>}></Route>
         <Route path="app4" element={<App4/>}></Route>
